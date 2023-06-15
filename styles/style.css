@@ -1,0 +1,46 @@
+body {
+    color: white;
+    height: 100vh;
+    background: url(/images/back.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: serif;
+}
+
+header{
+    font-size: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main img{
+    margin-left: -3rem;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+aside{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    font-family: serif;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 50px;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+
+}
