@@ -29,6 +29,24 @@ header{
     border: 2px solid white;
 }
 
+.modalSimulaContainer{
+    background-color: rgb(37, 37, 37);
+    border: 2px solid white; 
+}
+
+.modalSimulaContainer form{
+    background-color: rgb(37, 37, 37);
+}
+
+.modalSimulaContainer input{
+    background-color: rgb(37, 37, 37);
+
+}
+
+#simulaSalvarDeletar *{
+    border: 2px solid white;
+}
+
 
 img{
     filter: invert();
