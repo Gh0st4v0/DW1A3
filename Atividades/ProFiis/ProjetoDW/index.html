@@ -29,6 +29,21 @@
             </form>
         </div>
     </div>
+
+    <div class="modalSimula inactive">
+        <div class="modalSimulaContainer">
+            <div class="items">
+                <div id = "simulaOpcoes">Patrimônio total pós simulação<p id="simulaPatrimonio"></p></div>
+                <div id = "simulaOpcoes">Rendimento mensal pós simulação<p id="simulaRendimento"></p></div>
+                <div id = "simulaOpcoes">Total de dividendos gerados<p id="simulaTotalDividendos"></p></div>
+                <div id = "simulaOpcoes">Total de dinheiro investido (bolso)<p id="simulaTotalInvestido"></p></div>
+                <div id="simulaSalvarDeletar">
+                    <div>Salvar</div>
+                    <div onclick="Simula.closeModal()">Cancelar</div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Header com o logo do site e as opções -->
     <header>
         <div id="title">
@@ -96,7 +111,21 @@
             </div>
         </main>
     </div>
-    <footer></footer>
+    <footer>
+        <div id="footerTitle">Simular Período</div>
+        <form action="" class="simulaForm" onsubmit="Simula.submit(event)">
+            <div class="inputs">
+                <input type="number" id="aporteMensal"          placeholder="Aporte mensal"           step="0.01">
+                <input type="number" id="correcaoAporte"        placeholder="Correção anual %"        step="0.01">
+                <input type="number" id="periodoDeInvestimento" placeholder="Período de investimento" step="1">
+            </div>
+            <div class="inputs">
+                <input type="number" id="aporteEspecial"        placeholder="Aporte especial"               step="0.01">
+                <input type="number" id="frequenciaEspecial"    placeholder="Frequencia do aporte especial" step="1">
+                <button type="submit"> Calcular </button>
+            </div>
+        </form>
+    </footer>
 </body>
 <script src="script.js"></script>
 </html>
