@@ -20,6 +20,24 @@ header{
     border: 2px solid black;
 }
 
+.modalSimulaContainer{
+    background-color: white;
+    border: 2px solid black; 
+}
+
+.modalSimulaContainer form{
+    background-color: white;
+}
+
+.modalSimulaContainer input{
+    background-color: white;
+
+}
+
+#simulaSalvarDeletar *{
+    border: 2px solid black;
+}
+
 
 aside > *{
     border: 2px solid black;
